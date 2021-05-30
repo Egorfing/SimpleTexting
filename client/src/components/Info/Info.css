@@ -1,0 +1,15 @@
+.card-body{
+  overflow: scroll;
+}
+.card{
+  box-shadow: 0 5px 5px 2px rgba(128, 127, 127, 0.425);
+  border: none;
+  width: 25rem;
+}
+.text{
+  height: 11.9rem;
+}
+
+.card-img-top{
+  height: 9rem;
+}

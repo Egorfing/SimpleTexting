@@ -1,0 +1,28 @@
+.modal1{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(57, 57, 57, 0.35);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transform: scale(0);
+}
+
+.modal1.active1{
+  transform: scale(1);
+
+}
+
+.modalForm{
+  background-color: white;
+  width: 35rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 5px;
+}

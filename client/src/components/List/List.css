@@ -1,0 +1,26 @@
+.container{
+  height: 12rem;
+}
+.main{
+  box-shadow: 0 5px 5px 2px rgba(128, 127, 127, 0.425);
+  width: 10.5rem;
+  height: 100% ;
+  border-radius: 5px;
+}
+
+.list-group-item{
+  text-decoration: underline;
+  border: none;
+}
+
+.list-group-item:hover{
+  cursor: pointer;
+}
+
+.list-group-item-active{
+  text-decoration: none;
+}
+
+.btn100{
+  width: 100%;
+}
